@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b12678f8e8714a58897e396ee51575f, type: 3}
+  m_Name: Spear
+  m_EditorClassIdentifier: 
+  gripTransform: {fileID: 4405966999454354, guid: 0f7df617964d249acac3625f3ea30759,
+    type: 2}
+  weaponPrefab: {fileID: 1157887767490948, guid: 29f6e061eec1c40aa87a56c8c0e2b9c3,
+    type: 2}
+  attackAnimation: {fileID: 7400000, guid: d49af005f8f03dd40944d120d5009866, type: 3}
+  minTimeBetweenHits: 1.5
+  maxAttackRange: 2
